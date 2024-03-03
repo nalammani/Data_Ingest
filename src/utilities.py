@@ -18,5 +18,5 @@ def provide_month(year: int, month: int):
 
 
 if __name__ == '__main__':
-    # provide_calendar(2024)
+     provide_calendar(2024)
     # provide_month(2022, 6)
