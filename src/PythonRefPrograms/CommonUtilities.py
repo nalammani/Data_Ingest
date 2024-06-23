@@ -1,6 +1,6 @@
 # below function takes input of list and returns list with elements multiplication of two :
 
-'''def multiply_by_two(inputlist: list):
+def multiply_by_two(inputlist: list):
     mylist = []
 
     for x in inputlist:
@@ -10,7 +10,7 @@
 
 # Calling function
 l1 = [1, 2, 6, 7]
-print("Output of list is :", multiply_by_two(l1))'''
+print("Output of list is :", multiply_by_two(l1))
 
 #EVEN NUMBERS :
 
