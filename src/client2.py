@@ -11,7 +11,6 @@ def start_client():
     # Connect to the server
     client_socket.connect((server_ip, server_port))
     print(f"Connected to server {server_ip}:{server_port}")
-
     while True:
         # Get user input and send it to the server
         message = input("Enter message (or 'exit' to quit): ")
