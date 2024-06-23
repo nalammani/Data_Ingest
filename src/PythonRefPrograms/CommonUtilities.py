@@ -17,11 +17,61 @@ print("Output of list is :", multiply_by_two(l1))
 def even_numbers():
   list = [1,2,3,4,5,6,7,8,9,10]
   for x in list:
-      if x%2 == 0:
-          print(x)
+      if 2 != 0:
+          continue
+  # print(x)
   return list
 
 even_numbers()
+
+#Remove duplicates :
+def remove_duplicate(input:list):
+    unique_list = []
+    for item in input:
+        if item not in unique_list:
+            unique_list.append(item)
+    return unique_list
+
+list=[0,0,1,1,2,2,3,4,4,5,5,6,6,7]
+print(remove_duplicate(list))
+
+
+#Removw zero's:
+# the below program is not working as it modifying and iterating the list:
+
+def remove_zero(input:list):
+    print("remove_zero executing:")
+    print(input)
+    for x in input:
+        print(x)
+        if x == 0:
+            input.remove(x)
+            print(input)
+    return input
+
+list = [0,0,1,2,3,0, 4,5]
+print(remove_zero(list))
+
+#However, Python's for loop is not designed to handle modifications to the list it is iterating over. This can lead to skipping elements or unintended behavior.
+
+
+#Remove zero's :
+def remove_zeros(input:list):
+
+    my_list = []
+    for x in input:
+        if x != 0:
+            my_list.append(x)
+    return my_list
+
+list=[0,0,1,2,3,4,0,5]
+print(remove_zeros(list))
+
+
+
+
+
+
 
 
 
