@@ -17,11 +17,11 @@ print("Output of list is :", multiply_by_two(l1))
 # EVEN NUMBERS :
 
 def even_numbers():
-    list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    s = []
+    list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     for x in list:
-        if 2 != 0:
-            continue
-    # print(x)
+        if 2 == 0:
+            list.append(s)
     return list
 
 
@@ -41,7 +41,7 @@ list = [0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7]
 print(remove_duplicate(list))
 
 
-# Removw zero's:
+# Remove zero's:
 # the below program is not working as it modifying and iterating the list:
 
 def remove_zero(input: list):
@@ -95,3 +95,17 @@ print(starting_zeros(list))
 
 # maintain the elements having difference of two :
 def difference_of_two(input : list):
+
+    for i in input:
+     print(i)
+    if 2 == 0:
+        print("input")
+    else:
+        input.append(list)
+
+    return input
+
+list=[2,4,6,10,14]
+print(difference_of_two(list))
+
+
